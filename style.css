@@ -17,17 +17,39 @@
     }
     main img{
         max-width: 100%;
-        padding: 1em;
-        
+           
+        border-radius: 1em;    
     }
     
     main{
         width: 22.5vw;
-        margin: 0 auto;
+        margin: 10vh auto;
+        padding: 1em;
         background: var(--White);
+        border-radius: 1em;
     }
-    
+    h1{
+        color: var(--Darkblue);
+        font-size: 1.5em;
+        text-align: center;
+        padding: 1em 0;
+    }
+    p{
+        color: var(--Grayishblue);
+        text-align: center;
+        padding: 0em 0em 1em 0em;
+    }
      
         .attribution { font-size: 11px; text-align: center; }
         .attribution a { color: hsl(228, 45%, 44%); }
-    @media screen and (max-width: 600px) {}
+    @media screen and (max-width: 600px) {
+        main{
+            width: 80vw;}
+        h1{
+            font-size: 1em;
+        }
+        p{
+            font-size: small;
+        }
+
+    }
